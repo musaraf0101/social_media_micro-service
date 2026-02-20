@@ -8,6 +8,7 @@ import RedisStore from "rate-limit-redis";
 import proxy from "express-http-proxy";
 import { errorHandler } from "./middleware/errorHandler.js";
 import { logger } from "./utils/logger.js";
+import { validateToken } from "./middleware/authMiddleware.js";
 
 dotenv.config();
 
@@ -80,12 +81,34 @@ app.use(
   }),
 );
 
+// setting up proxy for post service
+app.use(
+  "/v1/posts",
+  validateToken,
+  proxy(process.env.POST_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, SrcReq) => {
+      proxyReqOpts.headers["Content-Type"] = "application/json";
+      proxyReqOpts.headers["x-user-id"] = SrcReq.user.userId;
+
+      return proxyOptions;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(`Response recived from post service: ${proxyRes.statusCode}`);
+      return proxyResData;
+    },
+  }),
+);
+
 app.use(errorHandler);
 
 app.listen(PORT, () => {
   logger.info(`API Gateway is running on port ${PORT}`);
   logger.info(
     `Identity service is running on port ${process.env.INDENTITY_SERVICE_URL}`,
+  );
+  logger.info(
+    `Post service is running on port ${process.env.POST_SERVICE_URL}`,
   );
   logger.info(`Redis url ${process.env.REDIS_URL}`);
 });

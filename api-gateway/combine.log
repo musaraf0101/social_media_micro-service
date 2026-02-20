@@ -22,3 +22,87 @@
 {"level":"info","message":"Recived POST request tp /v1/auth/login","service":"api-gateway","timestamp":"2026-02-18T02:40:43.709Z"}
 {"level":"info","message":"Request body [object Object]","service":"api-gateway","timestamp":"2026-02-18T02:40:43.710Z"}
 {"level":"info","message":"Response recived from identity service: 200","service":"api-gateway","timestamp":"2026-02-18T02:40:43.892Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:26:01.603Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:26:01.607Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:26:01.607Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:27:08.675Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:27:08.680Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:27:08.680Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:27:12.925Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:27:12.928Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:27:12.928Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:27:13.562Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:27:13.565Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:27:13.566Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:27:41.252Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:27:41.255Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:27:41.255Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:30:30.870Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:30:30.873Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:30:30.873Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:31:09.732Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:31:09.735Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:31:09.735Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:31:14.002Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:31:14.004Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:31:14.005Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:31:48.724Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:31:48.727Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:31:48.728Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:32:40.949Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:32:40.952Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:32:40.953Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:33:00.260Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:33:00.263Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:33:00.263Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:33:09.851Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:33:09.855Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:33:09.855Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:33:27.991Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:33:27.994Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:33:27.995Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:33:30.331Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:33:30.334Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:33:30.334Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:35:35.817Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:35:35.821Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:35:35.821Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:36:53.337Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:36:53.340Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:36:53.341Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:38:00.144Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:38:00.147Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:38:00.148Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:38:03.802Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:38:03.805Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:38:03.806Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:38:56.173Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:38:56.176Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:38:56.177Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:39:32.429Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:39:32.432Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:39:32.432Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:39:57.076Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:39:57.078Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:39:57.079Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:39:58.637Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:39:58.640Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:39:58.640Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:40:14.574Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:40:14.577Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:40:14.578Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:40:15.873Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:40:15.876Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:40:15.877Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:40:51.387Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:40:51.390Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:40:51.390Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:40:51.391Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:41:29.075Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:41:29.078Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2026-02-20T12:41:29.078Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:41:29.079Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2026-02-20T12:41:32.905Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2026-02-20T12:41:32.908Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2026-02-20T12:41:32.909Z"}
+{"level":"info","message":"Redis url redis://localhost:6379","service":"api-gateway","timestamp":"2026-02-20T12:41:32.909Z"}

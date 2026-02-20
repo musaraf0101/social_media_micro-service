@@ -26,3 +26,5 @@
 {"level":"info","message":"db connected success","service":"indentity-service","timestamp":"2026-02-18T02:46:01.035Z"}
 {"level":"info","message":"indentity service running on port 3001","service":"indentity-service","timestamp":"2026-02-18T02:47:28.157Z"}
 {"level":"info","message":"db connected success","service":"indentity-service","timestamp":"2026-02-18T02:47:28.178Z"}
+{"level":"info","message":"indentity service running on port 3001","service":"indentity-service","timestamp":"2026-02-20T12:25:53.191Z"}
+{"level":"info","message":"db connected success","service":"indentity-service","timestamp":"2026-02-20T12:25:53.219Z"}
