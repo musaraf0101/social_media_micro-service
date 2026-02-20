@@ -91,7 +91,7 @@ app.use(
       proxyReqOpts.headers["Content-Type"] = "application/json";
       proxyReqOpts.headers["x-user-id"] = SrcReq.user.userId;
 
-      return proxyOptions;
+      return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
       logger.info(`Response recived from post service: ${proxyRes.statusCode}`);

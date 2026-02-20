@@ -18,7 +18,7 @@ export const validateToken = (req, res, next) => {
       logger.warn("invalid token");
       return res.status(409).json({
         success: false,
-        message: "invalid required",
+        message: "invalid token",
       });
     }
     req.user = user;

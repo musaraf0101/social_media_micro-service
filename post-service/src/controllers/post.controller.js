@@ -9,7 +9,7 @@ export const createPost = async (req, res) => {
     const { error } = validateCreatePost(req.body);
 
     if (error) {
-      logger.warn("validation error", error.details[0].message);
+      logger.warn("validation error", error.message);
       return res.status(400).json({
         success: false,
         message: error.details[0].message,
@@ -18,7 +18,7 @@ export const createPost = async (req, res) => {
 
     const { content, mediaIds } = req.body;
     const newlyCreatedPost = new Post({
-      user: req.user.userId,
+      user: req.user,
       content,
       mediaIds: mediaIds || [],
     });
